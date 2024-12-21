@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #b32222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+}
+
+
+
+
+
+/* Background Image Styling */
+.background-image {
+    position: absolute; /* Position the image absolutely */
+    top: 75px; /* Adjust the top position as needed */
+    left: 1250px; /* Adjust the left position as needed */
+    width: 15%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: -1; /* Place the image behind the text */
+    opacity: 1; /* Optional: Adjust opacity for better readability */
+}
+
+/* Home Text Styling */
+#home h1 {
+    margin-bottom: 10px; /* Space below heading */
+}
+
+#home p {
+    margin: 0; /* Remove extra margin */
+    margin-bottom: 1.5rem; /* Add consistent spacing between paragraphs */
+}
+
+/* Paragraph and Heading Defaults */
+h1, h2, h3, p {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 1.5rem; /* Add consistent spacing between paragraphs */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 2rem; /* Reduce space below each section */
+}
+
+/* Footer Styling */
+footer {
+    background: #b32222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Optional Reset for the Entire Page */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* About Section */
+#about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    padding: 20px;
+    min-height: 80vh; /* Occupy most of the page */
+}
+
+.about-image {
+    display: block;
+    margin: 20px auto; /* Center image */
+    width: 550px;
+    height: auto;
+    margin-bottom: 20px; /* Space below image */
+}
+
+/* Footer Adjustments */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
